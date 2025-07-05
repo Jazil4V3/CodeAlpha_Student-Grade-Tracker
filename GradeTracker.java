@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.ArrayList;
 
 public class GradeTracker{
   private ArrayList<Student> students;
@@ -9,7 +9,7 @@ public class GradeTracker{
 
   //Add a new student
   public void addStudent(Student student){
-  students.add(student);
+    students.add(student);
   }
 
   //Display summary
